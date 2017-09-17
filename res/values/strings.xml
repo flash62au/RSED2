@@ -18,22 +18,22 @@
     <string name="settings">Function Defaults</string>
     <string name="fb_label">Function Label</string>
     <string name="function_buttons">function_buttons</string>
-    <string name="app_name">Engine Driver</string>
-    <string name="app_description">Engine Driver - Throttle for your Android phone.  This application can connect to a JMRI (or MRC) WiThrottle server, and in turn control your locomotives. Speed, direction, and up to 29 DCC functions are supported for one or two locomotives. </string>
-    <string name="app_name_connect">Engine Driver - Connect to Server</string>
-    <string name="app_name_throttle">Engine Driver - Throttle</string>
-    <string name="app_name_power_control">Engine Driver - Power Control</string>
-    <string name="app_name_reconnect_status">Engine Driver - Reconnect Status</string>
-    <string name="app_name_routes">Engine Driver - Routes</string>
-    <string name="app_name_turnouts">Engine Driver - Turnouts</string>
-    <string name="app_name_about">Engine Driver - About</string>
-    <string name="app_name_web">Engine Driver - Web</string>
-    <string name="app_name_functions">Engine Driver - Default Function Settings</string>
-    <string name="app_name_preferences">Engine Driver - Preferences</string>
-    <string name="app_name_select_loco">Engine Driver - Select Loco</string>
-    <string name="app_name_ConsistEdit">Engine Driver - Consist Edit</string>
-    <string name="notification_title">Engine Driver is running</string>
-    <string name="notification_text">Tap to reopen Engine Driver</string>
+    <string name="app_name">RSED2</string>
+    <string name="app_description">RSED2 - Throttle for your Android phone.  This application can connect to a JMRI (or MRC) WiThrottle server, and in turn control your locomotives. Speed, direction, and up to 29 DCC functions are supported for one or two locomotives. </string>
+    <string name="app_name_connect">RSED2 - Connect to Server</string>
+    <string name="app_name_throttle">RSED2 - Throttle</string>
+    <string name="app_name_power_control">RSED2 - Power Control</string>
+    <string name="app_name_reconnect_status">RSED2 - Reconnect Status</string>
+    <string name="app_name_routes">RSED2 - Routes</string>
+    <string name="app_name_turnouts">RSED2 - Turnouts</string>
+    <string name="app_name_about">RSED2 - About</string>
+    <string name="app_name_web">RSED2 - Web</string>
+    <string name="app_name_functions">RSED2 - Default Function Settings</string>
+    <string name="app_name_preferences">RSED2 - Preferences</string>
+    <string name="app_name_select_loco">RSED2 - Select Loco</string>
+    <string name="app_name_ConsistEdit">RSED2 - Consist Edit</string>
+    <string name="notification_title">RSED2 is running</string>
+    <string name="notification_text">Tap to reopen RSED2</string>
     <string name="host_ip">Host Name or Address</string>
     <string name="port">Port</string>
     <string name="loco_address">Loco Address</string>
@@ -98,17 +98,17 @@
     <string name="volume_indicator">v</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
-    <string name="exit_text">Exit Engine Driver?</string>
+    <string name="exit_text">Exit RSED2?</string>
     <string name="exit_title">Exit</string>
     <string name="steal_text">Steal address %1$s?</string>
     <string name="steal_title">Steal</string>
     <string name="prefTitle">Preferences</string>
-    <string name="prefSummary">Preferences for Engine Driver</string>
+    <string name="prefSummary">Preferences for RSED2</string>
     <string name="preferences">Preferences</string>
     <string name="prefSwipeUpDownTitle">Swipe Up-Down options</string>
     <string name="prefSwipeUpDownSummary">Preferences for swipe Up-Down on the Throttle Screen.</string>
     <string name="prefThrottleNameTitle">Throttle Name</string>
-    <string name="prefThrottleNameDefaultValue">Engine Driver</string>
+    <string name="prefThrottleNameDefaultValue">RSED2</string>
     <string name="prefThrottleNameSummary">Set a name for this device (shown on WiThrottle screen)</string>
     <string name="prefThrottleOrientationTitle">Screen orientation</string>
     <string name="prefThrottleOrientationDefaultValue">Portrait</string>
@@ -168,7 +168,7 @@
     <string name="prefWebViewLocationSummary">Include web view on Throttle pane</string>
     <string name="prefSelectLocoTitle">Select Loco Preferences</string>
     <string name="prefSelectiveLeadSoundTitle">Selective Lead Unit Sound?</string>
-    <string name="prefSelectiveLeadSoundSummary">Send Horn/Bell functions to only the Lead unit in an EngineDriver consist</string>
+    <string name="prefSelectiveLeadSoundSummary">Send Horn/Bell functions to only the Lead unit in an RSED2 consist</string>
     <string name="prefStopOnPhonecallTitle">Stop On Phonecall?</string>
     <string name="prefStopOnPhonecallSummary">Stop loco(s) when a phone call is answered or placed</string>
     <string name="prefStopOnReleaseTitle">Stop On Release?</string>
@@ -258,4 +258,11 @@
     <string name="label_28step">28</string>
 	<string name="label_128step">128</string>
     <string name="throttle_name">Throttle Name: %1$s</string>
+
+    <!--R.S.E.D. Start-->
+    <string name="prefRsedBluetoothDeviceDefaulValue"></string>
+    <string name="prefRsedBluetoothDeviceTitle">Bluetooth Device Name?</string>
+    <string name="prefRsedBluetoothDeviceSummary">Device ID. Blank for none.  Requires a restart of the app.</string>
+    <!--R.S.E.D. End-->
+
 </resources>

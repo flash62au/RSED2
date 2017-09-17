@@ -186,6 +186,19 @@
                 android:numeric="integer"
                 android:summary="@string/prefGamePadFeedbackVolumeSummary"
                 android:title="@string/prefGamePadFeedbackVolumeTitle" />
+
+            <!--R.S.E.D. Start-->
+            <EditTextPreference
+                android:defaultValue="@string/prefRsedBluetoothDeviceDefaulValue"
+                android:dialogTitle="@string/prefRsedBluetoothDeviceTitle"
+                android:key="prefBluetoothDevice"
+                android:maxLength="25"
+                android:inputType="text"
+                android:maxLines="1"
+                android:summary="@string/prefRsedBluetoothDeviceSummary"
+                android:title="@string/prefRsedBluetoothDeviceTitle" />
+            <!--R.S.E.D. End-->
+
         </PreferenceScreen>
     </PreferenceCategory>
     <PreferenceCategory android:title="@string/prefThrottleTitle" >

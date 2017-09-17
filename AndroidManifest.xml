@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="jmri.enginedriver"
+    package="jmri.RSED2"
     android:versionCode="41"
     android:versionName="2.16-test1" android:installLocation="auto">
     <uses-permission android:name="android.permission.INTERNET" />
@@ -11,6 +11,9 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <!--R.S.E.D. Start-->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <!--R.S.E.D. End-->
     <supports-screens
         android:largeScreens="true"
         android:normalScreens="true"
@@ -24,7 +27,7 @@
     </uses-sdk>
     <uses-permission android:name="android.permission.READ_LOGS" />
     <application
-        android:name="jmri.enginedriver.threaded_application"
+        android:name="jmri.RSED2.threaded_application"
         android:allowBackup="true"
         android:description="@string/app_description"
         android:icon="@drawable/ic_launcher"

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="jmri.enginedriver"
+    package="jmri.RSED2"
     android:versionCode="37"
     android:versionName="2.14" android:installLocation="auto">
     <uses-permission android:name="android.permission.INTERNET" />
@@ -23,7 +23,7 @@
     </uses-sdk>
     <uses-permission android:name="android.permission.READ_LOGS" />
     <application
-        android:name="jmri.enginedriver.threaded_application"
+        android:name="jmri.RSED2.threaded_application"
         android:allowBackup="true"
         android:description="@string/app_description"
         android:icon="@drawable/ic_launcher"

@@ -4,7 +4,7 @@ import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
 import java.util.HashMap;
 
-import jmri.enginedriver.threaded_application;
+import jmri.RSED2.threaded_application;
 
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
